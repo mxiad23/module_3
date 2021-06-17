@@ -1,0 +1,157 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: RobotoR;
+	src:(../fonts/Roboto-Regular.ttf);
+}
+
+html, body, main {
+	height: 100%;
+	font-family: RobotoR;
+}
+
+.first {
+	height: 100%;
+	background-image: url(../img/img1.jpg);
+	background-position: center;
+	-webkit-backgroud-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.first p {
+	color: #fff;
+}
+
+.tourism {
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.text-container {
+	width: 40%;
+	margin-top: 15%;
+	margin-left: 15%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.first-line {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	opacity: 0.6;
+	line-height: 1;
+}
+
+.second-line {
+	text-transform: uppercase;
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: 3.5px;
+	line-height: 1.2;
+}
+
+.third-line {
+	font-size: 16px;
+}
+
+.second {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.gallery-container {
+	width: 60%;
+	max-width: 1000px;
+
+}
+
+.img-container {
+	width: 100%;
+	display: flex;
+	-ms-align-items: flex-start;
+	align-items: flex-start;  /*font-stretch: ;*/
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper {
+	margin-left: 20px;
+}
+
+.img1 {
+	width: 50%;
+}
+
+.img2 {
+	margin-bottom: 20px;
+}
+
+.gallery-text{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	margin-top: 100px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.gallery-p {
+	font-size: 16px;
+	width: 70%;
+}
+
+.gallery-header {
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 1;
+}
+
+/*12*/
+
+.last-conatiner {
+	margin-top: 100px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../img/img3.jpg);
+	background-position: center;
+	background-size: cover;
+	flex-direction: column;
+	padding: 0 25%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.last-header {
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 20px;
+	border: 1px solid #fff;
+	margin-bottom: 40px;
+}
+
+.last-p {
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
